@@ -3,7 +3,7 @@ var config = {
     pacScript: {
         data: "function FindProxyForURL(url, host) {\n" +
                 "  if (host === 'thepiratebay.se')\n" +
-                "    return 'PROXY 203.56.188.145:80';\n" +
+                "    return 'PROXY 177.71.192.151:80';\n" +
                 "  return 'DIRECT';\n" +
                 "}"
     }
